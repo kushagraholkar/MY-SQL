@@ -1,0 +1,8 @@
+create database student;
+use Student ;
+CREATE TABLE student_info 
+(student_ID int(8),
+student_name varchar(255),
+Branch varchar(255)
+);
+SELECT * FROM student_info;
